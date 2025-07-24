@@ -1,0 +1,32 @@
+#item-1{
+    width:40px;
+    height:40px;
+    background-color:#c73447;
+    animation: spin 5s; /* we have spin, move ,pulse etc;*/
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+}
+#item-2{
+    width:40px;
+    height:40px;
+    background-color:#d1c244;
+    animation:spin 5s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+}
+#item-3{
+    width:40px;
+    height:40px;
+    background-color: #166a8e;
+    animation:spin 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes spin{
+   from{transform:rotate(0deg);}
+   to{transform:rotate(360deg);}
+}
+div{
+    margin-top:30px;
+    position:relative;
+}
